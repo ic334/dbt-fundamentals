@@ -39,5 +39,3 @@ models:
   jaffle_shop:
     +materialized: table
     # Applies to all files under models/example/
-    example:
-      +materialized: table
