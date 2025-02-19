@@ -2,8 +2,14 @@ version: 2
 
 sources:
   - name: jaffle_shop
+    description: a clone of a Databricks workspace
     database: workspace
     schema: default
     tables:
       - name: jaffle_shop_customers
+        description: raw customer data
+        columns:
+          - name: id
+            description: Primary key for customers data
       - name: jaffle_shop_orders
+        description: raw orders data
