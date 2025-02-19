@@ -1,0 +1,9 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: databricks
+      schema: default
+      host: dbc-f9f7fae4-8589.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/a554ec0a71375238
+      token: <access-token>
