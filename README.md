@@ -1,15 +1,14 @@
-Welcome to your new dbt project!
+# dbt Fundamentals Course
 
-### Using the starter project
+## Overview
+This repository contains my work from the **dbt Fundamentals Course**, which I completed to reinforce best practices and stay sharp on core concepts. dbt has been a key tool in my work, enabling scalable data transformation and improving analytics workflows. This course served as an opportunity to refine my skills and stay ahead in the analytics engineering space.
 
-Try running the following commands:
-- dbt run
-- dbt test
+## Why dbt?
+**dbt (data build tool)** is a powerful framework that allows analysts and engineers to transform data in the warehouse using SQL and modular workflows. It enhances collaboration, enforces coding best practices, and ensures reproducibility in data transformations.
 
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [dbt community](https://getdbt.com/community) to learn from other analytics engineers
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Key Learnings
+- **Modular SQL development**: Writing reusable, well-structured SQL models.
+- **Version control and collaboration**: Leveraging Git for tracking changes.
+- **Testing and documentation**: Ensuring data integrity and transparency.
+- **Deployment best practices**: Managing environments and production workflows.
+- **Performance optimization**: Using dbt features for scalable data transformations.
